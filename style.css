@@ -1,6 +1,6 @@
 .circle {
-    height: 75px;
-    width: 75px;
+    height: clamp(60px, 15vw, 120px);
+    width: clamp(60px, 15vw, 120px);
     position: absolute;
     border-radius: 50%;
     display: flex;
