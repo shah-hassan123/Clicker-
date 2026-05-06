@@ -1,0 +1,27 @@
+.circle{
+    height: 75px;
+    width: 75px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+    opacity: 1;
+    animation: grow 5s forwards;
+     white-space: nowrap; 
+     text-align: center;
+}
+@keyframes grow{
+0%{
+    transform: scale(1);
+    opacity: 1;
+    font-size: 10px;
+}
+100%{
+    transform: scale(3);
+    opacity: 0;
+    font-size: 50px;
+}
+
+}
